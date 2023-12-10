@@ -27,6 +27,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <16 15>;
+            layers = <2>;
+        };
+
+        screenshot {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <17 16>;
+            layers = <2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
