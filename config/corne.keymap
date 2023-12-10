@@ -13,6 +13,11 @@
     retro-tap;
 };
 
+&mt {
+    tapping-term-ms = <150>;
+    retro-tap;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
