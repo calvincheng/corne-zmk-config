@@ -69,7 +69,7 @@
         lower_layer {
             label = "Lower";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
 &trans     &trans    &trans  &trans    &trans      &trans         &trans     &trans    &trans     &trans                &trans                 &trans
 &kp LSHFT  &trans    &trans  &trans    &trans      &trans         &trans     &trans    &trans     &trans                &trans                 &trans
                              &kp LGUI  &trans      &kp SPACE      &kp RET    &trans    &kp RALT
