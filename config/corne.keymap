@@ -41,6 +41,11 @@
             key-positions = <17 16>;
             layers = <2>;
         };
+
+        word-bksp {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <11 10>;
+        };
     };
 
     keymap {
