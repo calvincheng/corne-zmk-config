@@ -18,10 +18,11 @@ peripheral display can be customized.
 Pixel art: **glooo89 — "1-bit a frog set"**
 https://glooo89.itch.io/1-bit-a-frog-set
 
-The frames are derived from the `1bit-monitor-glow` (default / white frog on a
-dark background) sprites, extracted from the `animacion frog_16x16px.png` sheet
-and upscaled ×4 nearest-neighbor. See the header comment in `assets/frog.c` for
-the exact color mapping and sheet layout.
+The frames are the set's canonical 16x16 sprites: the `example_frog_idle.gif`,
+`example_frog_eat.gif` and `example_frog_jump.gif` files are 160x160 renders
+where each sprite pixel is a 10x10 block. They are extracted at true pixel size
+and upscaled ×4 nearest-neighbor, rendered as the white frog on the display.
+See the header comment in `assets/frog.c` for the color mapping and layout.
 
 ## Tuning
 
